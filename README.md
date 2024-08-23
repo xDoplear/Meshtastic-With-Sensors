@@ -12,19 +12,18 @@ Meshtastic Heltec Sensor Config (For Meshtastic App on Tablet):
      The name of the private channel should be "MendezLab"
    - The following settings will be under "Radio configuration" section
      - Go to "Device" and change the role to CLIENT_HIDDEN and enable Serial output
-     - Go to "Power" and do the following
+     - Go to "Power" and do the following **These values may need some modifications**
          - Enable Power Saving Mode (if you see fit)
          - Change the wait for bluetooth setting to 30 seconds
          - Change both super deep sleep and light sleep duration to 300 seconds
          - Change minimum wake time to 10 seconds
-           *These values may need some tinkering around
       - Go to "Display" and change screen timeout to 5 seconds
       - Go to "Bluetooth" and enable bluetooth (this should already be enabled)
      - Under the "Module Configuration" go to "Serial" and do the following
          - Enable Serial
          - Enable Echo (optional)
          - Change RX pin to 18 and TX pin to 17 (change as needed, just make sure selected pins are actually UART pins or else an error will occur)
-         - Change Baud rate to desired (Sensor Modules should be configured to 9600)
+         - Change Baud rate to 9600 (this can be changed if needed, just make sure to do so in the Arduino code as well)
          - Set timeout to 1
          - Change the "Serial mode" setting to TEXTMSG
 
