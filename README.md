@@ -1,3 +1,5 @@
+The included Arduino Program is designed for a Adafruit Trinket M0. If you want to use a different microcontroller, you may have to modify the code.
+
 Meshtastic Heltec Sensor Config (For Meshtastic App on Tablet):
 1. Connect to the Meshtastic Radio that you want to configure
 2. Press three dots on top right corner
