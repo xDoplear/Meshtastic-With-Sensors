@@ -5,6 +5,7 @@ Meshtastic Heltec Sensor Config (For Meshtastic App on Tablet):
 4. Scroll down until you see "Import configuration" and press it
 5. Import the config file named "All Sensor Final Config". This is the current configuration of the current sensor Heltecs.
    There is one called "All Sensor Final Cong" as well. This should also work but I just made a typo.
+6. Go back to the "Radio configuration" and find the "Power" tab. This is where you can enable/disable power saving mode. This should be disabled in the imported configuration.
 7. If you want to double check if the configuration is right or if you do not have access to the file, the following are the important settings that need to be changed
    - On the channels tab (the circle with a sideways wifi Logo), there should be a place to enter a URL. Enter the following URL:
      https://meshtastic.org/e/#CjESIJX6cYPXaTCkQ90MgZlJb7ExMa7bxA76L3uKXQBcwBAvGglNZW5kZXpMYWI6AgggEgwIATgBQANIAVAeaAE 
@@ -12,7 +13,7 @@ Meshtastic Heltec Sensor Config (For Meshtastic App on Tablet):
    - The following settings will be under "Radio configuration" section
      - Go to "Device" and change the role to CLIENT_HIDDEN and enable Serial output
      - Go to "Power" and do the following
-         - Enable Power Saving Mode
+         - Enable Power Saving Mode (if you see fit)
          - Change the wait for bluetooth setting to 30 seconds
          - Change both super deep sleep and light sleep duration to 300 seconds
          - Change minimum wake time to 10 seconds
