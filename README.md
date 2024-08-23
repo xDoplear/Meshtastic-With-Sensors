@@ -3,8 +3,9 @@ Meshtastic Heltec Sensor Config (For Meshtastic App on Tablet):
 2. Press three dots on top right corner
 3. Go to "Radio configuration"
 4. Scroll down until you see "Import configuration" and press it
-5. Import the config file named "ASF config". This is the current configuration of the current sensor Heltecs. 
-6. If you want to double check if the configuration is right or if you do not have access to the file, the following are the important settings that need to be changed
+5. Import the config file named "All Sensor Final Config". This is the current configuration of the current sensor Heltecs.
+   There is one called "All Sensor Final Cong" as well. This should also work but I just made a typo.
+7. If you want to double check if the configuration is right or if you do not have access to the file, the following are the important settings that need to be changed
    - On the channels tab (the circle with a sideways wifi Logo), there should be a place to enter a URL. Enter the following URL:
      https://meshtastic.org/e/#CjESIJX6cYPXaTCkQ90MgZlJb7ExMa7bxA76L3uKXQBcwBAvGglNZW5kZXpMYWI6AgggEgwIATgBQANIAVAeaAE 
      The name of the private channel should be "MendezLab"
@@ -26,6 +27,6 @@ Meshtastic Heltec Sensor Config (For Meshtastic App on Tablet):
          - Set timeout to 1
          - Change the "Serial mode" setting to TEXTMSG
 
-  For the Sensor Receiver Heltec, you can import the same "ASF config" file but change the following settings:
+  For the Sensor Receiver Heltec, you can import the same "All Sensor Final Config" file but change the following settings:
   1. Under "Device", change role to CLIENT_MUTE
   2. Under "Serial", change baud rate to 115200
