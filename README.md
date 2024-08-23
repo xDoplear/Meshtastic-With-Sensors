@@ -1,7 +1,7 @@
 The included Arduino Program is designed for a Adafruit Trinket M0. If you want to use a different microcontroller, you may have to modify the code.
 
 Meshtastic Heltec Sensor Config (For Meshtastic App on Tablet):
-1. Connect to the Meshtastic Radio that you want to configure
+1. Connect to the Meshtastic Radio that you want to configure. For any config import/modification, the Meshtastic device will have to restart before the config is set.
 2. Press three dots on top right corner
 3. Go to "Radio configuration"
 4. Scroll down until you see "Import configuration" and press it
@@ -16,7 +16,7 @@ Meshtastic Heltec Sensor Config (For Meshtastic App on Tablet):
      The name of the private channel should be "MendezLab"
    - The following settings will be under "Radio configuration" section
      - Go to "Device" and change the role to CLIENT_HIDDEN and enable Serial output
-     - Go to "Power" and do the following **These values may need some modifications**
+     - Go to "Power" and do the following. **These values may need tinkering**
          - Enable Power Saving Mode (if you see fit)
          - Change the wait for bluetooth setting to 30 seconds
          - Change both super deep sleep and light sleep duration to 300 seconds
