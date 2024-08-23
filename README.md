@@ -8,7 +8,9 @@ Meshtastic Heltec Sensor Config (For Meshtastic App on Tablet):
 5. Import the config file named "All Sensor Final Config". This is the current configuration of the current sensor Heltecs.
    There is one called "All Sensor Final Cong" as well. This should also work but I just made a typo.
 6. Go back to the "Radio configuration" and find the "Power" tab. This is where you can enable/disable power saving mode. This should be disabled in the imported configuration.
-7. If you want to double check if the configuration is right or if you do not have access to the file, the following are the important settings that need to be changed
+7. Under the "User" tab, change the name of the device to a fitting name. Ex: All Sensor 4
+8. If you want to double check if the configuration is right or if you do not have access to the file, the following are the important settings that need to be changed
+   - On the main screen, go to the gear tab on the right and make sure your region is US. You can also change your name here as well.
    - On the channels tab (the circle with a sideways wifi Logo), there should be a place to enter a URL. Enter the following URL:
      https://meshtastic.org/e/#CjESIJX6cYPXaTCkQ90MgZlJb7ExMa7bxA76L3uKXQBcwBAvGglNZW5kZXpMYWI6AgggEgwIATgBQANIAVAeaAE 
      The name of the private channel should be "MendezLab"
