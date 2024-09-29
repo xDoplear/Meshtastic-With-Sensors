@@ -1,4 +1,4 @@
-The included Arduino Program is designed for a Adafruit Trinket M0. If you want to use a different microcontroller, you may have to modify the code.
+The included Arduino Program is designed for a Adafruit Trinket M0. If you want to use a different microcontroller, you may have to modify the code. KiCAD files for the project, schematic, and PCB are included.
 
 # Meshtastic Heltec Sensor Config For Meshtastic App
 1. Connect to the Meshtastic Radio that you want to configure. For any config import/modification, the Meshtastic device will have to restart before the config is set.
